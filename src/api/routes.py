@@ -23,7 +23,7 @@ def handle_hello():
 
     return jsonify(response_body), 
 
-@api.route('/login', method=['POST'])
+@api.route('/login', methods=['POST'])
 def login_get_token():
     email = request.json.get('email')
     password = request.json.get('passowrd')
