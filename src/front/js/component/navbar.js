@@ -44,7 +44,7 @@ export const Navbar = () => {
 		<nav className="navbar navbar-light bg-dark">
 			<div className="container">
 				<Link to="/" style={{textDecoration: 'none'}}>
-					<span className="navbar-brand mb-0 h1 text-light"  >Auth0 POC</span>
+					<span className="navbar-brand mb-0 h1 text-light"  ><img src="https://static-00.iconduck.com/assets.00/auth0-icon-1832x2048-ewzjrdwk.png" style={{width: '18px', height: '18px'}} />{' '}Auth0 POC</span>
 				</Link>
 				<div className="ml-auto d-flex gap-2">
 					{!isAuthenticated &&
